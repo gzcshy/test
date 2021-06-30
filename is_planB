@@ -189,7 +189,7 @@ async function stealFriendWater() {
             }
           }
         } else {
-          if (item.nutrCount >= 3) {
+          if (item.nutrCount >= 2) {
             // console.log(`可以偷的好友的信息::${JSON.stringify(item)}`);
             console.log(`可以偷的好友的信息paradiseUuid::${JSON.stringify(item.paradiseUuid)}`);
             await collectUserNutr(item.paradiseUuid);
